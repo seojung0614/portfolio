@@ -1,0 +1,123 @@
+         .login{
+                margin-top: 40px;
+                }
+        .login .local_nav{
+                float: left;
+                width: 226px;
+                }
+        .local_nav>ul:first-child{
+                margin-bottom: 48px;
+                }
+        .local_nav>ul:first-child>li:first-child>a{color: #ba000c;}                
+        .local_nav>ul:first-child>li>a{
+                font-size: 24px;
+                font-weight: 800;
+                color: #333;
+                transition: 0.3s;
+                }
+        .local_nav>ul:first-child>li{
+                margin-bottom: -7px;
+                 }                
+        .local_nav>ul:first-child>li>a:hover{
+                color: #ba000c;
+                }
+        .local_nav>ul:last-child img{
+                padding-bottom: 36px;
+                border-bottom: 1px solid #ccc;
+                }
+        .local_nav>ul:last-child>li{
+                color: #333;
+                font-size: 13px;
+                font-weight: 200;
+                }
+        .local_nav>ul:last-child>li:first-child>a{
+                font-size: 16px;
+                font-weight: 900;
+                color: #333;
+                line-height: 18px;
+                }
+        .local_nav>ul:last-child>li:last-child>a{
+                margin-top: 30px;
+                }
+        .login .article{
+                float: right;
+                width: 702px;
+                }
+                
+        .article>h2{
+                font-size: 32px;
+                font-weight: 500;
+                color: #333;
+                margin-bottom: 40px;
+                }
+        .article>p:nth-of-type(2){
+                font-size: 72px;
+                font-weight: 600;
+                color: #ba000c;
+                margin-bottom: -4px;
+                }
+        .article>p:nth-of-type(3){
+                    font-size: 13px;
+                    font-weight: 300;
+                    color: #666;
+                    line-height: 20px;
+                    margin-bottom: 60px;
+                    }
+                form{
+                    width: 452px;
+                    }
+form .id_pass_box .id_pass_input{
+                    float: left;
+                    }
+        form .id_pass_box .id_pass_input input{
+                    width: 339px;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    border: 1px solid black;
+                    font-size: 12px;
+                    color: #ba000c;
+                    }
+        form .id_pass_box .submit_btn{
+                    float: right;
+                    }           
+        form .id_pass_box .submit_btn input{
+                    width: 101px;
+                    height: 83px;
+                    background-color: #ba000c;
+                    color: white;
+                    text-align: center;
+                    line-height: 83px;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 900;
+                    cursor: pointer;
+                    }
+        form .chk_box label input{
+                    display: inline-block;
+                    margin-right: 5px;
+                    }
+               .line{ 
+                    height: 1px;
+                    background-color: #999;
+                    margin: 24px 0;}
+        .login .article>ul{
+                    margin-bottom: 56px;}
+        .login .article>ul>li{
+                    float: left;
+                    width: 33.333333333%;
+                    }       
+        .login .article>ul>li>.img_box{
+                    height: 62px;}
+
+        .login .article>ul>li>.img_box>img{margin: 0 auto;}
+        .login .article>ul>li>h3{
+                    font-size: 15px;
+                    font-weight: 700;
+                    }
+        .login .article>ul>li>a>input{
+                    border: 1px solid black;
+                    padding: 6px 12px;
+                    background-image: linear-gradient(45deg,#fff,#ddd);
+                    margin-top: 20px;
+                    cursor: pointer;
+                    }

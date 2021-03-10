@@ -1,0 +1,168 @@
+@charset 'utf-8';
+
+          /* 메인배너 스타일 시작*/
+            
+          .main_banner>.container{
+            width: 1920px;
+            padding: 0;
+            }
+.swiper-pagination-bullet{
+            width: 12px;
+            height: 12px;
+            }
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+           margin: 0 12px;
+            }
+.swiper-pagination-bullet-active{
+            background-color: #ba000c
+            }
+/* 메인 컨탠츠 스타일 시작 */
+
+.main_content img{
+            width: 100%;}            
+.main_content .container>div{
+            float: left;
+            margin-right: 12px;
+            padding: 20px 10px;
+            
+            }
+    
+.main_content .container>div:last-child{
+            margin-right: 0;
+            }
+
+.franchise,.store{
+            width: 226px;
+            height: 251px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 350px;
+            transition: 0.3s;
+            cursor: pointer;
+            }
+
+ .franchise{
+            background-image:url(/images/hollys01.png);
+            }
+    .store{
+            background-image:url(/images/hollys02.jpg);
+            }
+
+.hollys_mall{
+            width: 464px;
+            }
+.hollys_mall li{
+            float: left;
+            }
+.hollys_mall li .img_box{border-right: 1px dotted #aaa;}
+.hollys_mall li:last-child .img_box{border:none}
+
+
+.hollys_mall li img{
+            width: 70%;    
+            margin: 0 auto;
+            transition: 0.3s;
+            }
+.hollys_mall li:hover img{transform: scale(1.1);}
+.hollys_mall li p{
+            text-align: center;
+            transition: 0.3s;
+            }    
+
+.hollys_mall p:hover{
+            text-decoration: underline;
+            color: #ba000c;} 
+.hollys_mall h3{
+            margin-bottom: 24px;
+            } 
+
+      
+.franchise h2, .franchise h3, .store h2, .store h3{color: #fff;}
+
+.sub_banner li{
+            float: left;
+            }
+.sub_banner li:last-child{
+            float: right;
+            }
+.sub_banner li,.sub_banner li:last-child{
+            filter: grayscale();
+            transition: 0.3s;
+            }
+.sub_banner li:hover,.sub_banner li:last-child:hover{filter: none;}
+    .notice{
+            padding-bottom: 20px;}
+ .notice_level01>li{
+            width: 226px;
+            float: left;
+            margin-right: 12px;
+            padding-top: 10px;
+            }
+ .notice_level01>li:last-child{padding-top: 26px;}
+.notice h2{
+            margin-bottom: 4px;
+            color: #666;
+            font-style: 18px;
+            }
+  .notice p{
+            line-height: 1.3;
+            margin-bottom: 4px;
+            }
+
+
+.notice_level01>li:last-child{
+            margin-right: 0;
+            }
+.quick_link{
+            
+            width: 70px;
+            height: 18px;
+            border: 1px solid #999;
+            border-radius: 9px;
+            text-align: center;
+            font-size: 10px;
+            color: #999;
+            line-height: 18px;
+            transition: 0.3s;
+            }
+.quick_link:hover{
+            background-color: #666;
+            color: white;
+            }
+
+.notice_level01 li:nth-child(3) p:first-child{
+            float: left;
+            margin: 0;
+            transition: 0.3s;
+}
+.notice_level01 li:nth-child(3) p:last-child{
+            float: right;
+            margin: 0;
+            
+}
+.notice_level01 li:nth-child(3) p:first-child:hover{
+            color: #ba000c;}
+.notice_level02>li{
+            float: left;
+            width: 75.33333333333333px;
+            }
+.notice_level02>li:first-child .img_box{margin-bottom: 4px;}            
+.notice_level02>li:nth-child(2) .img_box{margin-bottom: 1px;}            
+.notice_level02>li:last-child .img_box{margin-bottom: 1px;}          
+.notice_level02 img{
+            margin: 0 auto;
+            }
+.notice_level02 span{
+            font-size: 13px;
+            text-align: center;
+            transition: 0.3s;}
+.notice_level02 span:hover{
+            color: #ba000c;}
+
+hr{width: 940px; height: 2px; margin: 0 auto; background-color: #ba000c;}
+
+.hollys_live{margin-bottom: 100px;}
+.hollys_live h2,.hollys_live ul,.hollys_live li{
+            display: inline-block;}
+.hollys_live h2{
+            margin: 20px 24px 0 0 ;}

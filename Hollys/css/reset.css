@@ -1,0 +1,38 @@
+/* CSS Reset */
+@charset 'utf-8';
+html,body{
+    font-family: 'Roboto','Noto Sans KR',sans-serif;
+    line-height: 1.6;
+    font-size: 12px;
+    font-weight: normal;    
+}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,strong,header,section,article,footer,nav,aside,address,img,a,ul,ol,li,input,
+label,select,textarea,form,fieldset,legend,caption,option,option,optgroup,figure,figcaption{
+    margin: 0;
+    border: none;    
+    padding: 0;
+    background-color: transparent;
+    display: block;
+    box-sizing: border-box;
+    }
+h1,h2,h3,h4,h5,h6{
+    font-size: 12px;
+    font-weight: normal;
+    }
+strong{
+    font-weight: normal;
+    }
+address{
+    font-style: normal;
+    }
+a{
+ color: #000000;
+ text-decoration: none;
+ }
+img{
+   vertical-align: top;
+   }
+ul,ol,li{
+    list-style: none;
+}
+

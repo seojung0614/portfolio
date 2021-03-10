@@ -1,0 +1,134 @@
+    
+        .menu{
+            margin-top: 40px;
+            }
+    .menu .local_nav{
+            float: left;
+            width: 226px;
+            }
+    .local_nav>ul:first-child{
+            margin-bottom: 48px;
+            }
+    .local_nav>ul:first-child>li:first-child>a{color: #ba000c;}                
+    .local_nav>ul:first-child>li>a{
+            font-size: 24px;
+            font-weight: 800;
+            color: #333;
+            transition: 0.3s;
+            }
+    .local_nav>ul:first-child>li{
+            margin-bottom: -7px;
+             }                
+    .local_nav>ul:first-child>li>a:hover{
+            color: #ba000c;
+            }
+    .local_nav>ul:last-child img{
+            padding-bottom: 36px;
+            border-bottom: 1px solid #ccc;
+            }
+    .local_nav>ul:last-child>li{
+            color: #333;
+            font-size: 13px;
+            font-weight: 200;
+            }
+    .local_nav>ul:last-child>li:first-child>a{
+            font-size: 16px;
+            font-weight: 900;
+            color: #333;
+            line-height: 18px;
+            }
+    .local_nav>ul:last-child>li:last-child>a{
+            margin-top: 30px;
+            }
+    .menu .article{
+            float: right;
+            width: 702px;
+
+            }
+    .article>h2{
+            font-size: 32px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 40px;
+            }
+    
+    
+    
+    .item_header>div{
+            float: left;
+            width: 50%;}
+    .item_header>.img_box>img{
+            width: 120%;
+            }
+    .item_header>.item_info{ 
+        padding-top: 77px;
+        padding-left: 100px;}
+    .item_header>.item_info>.img_box{margin-bottom: 20px;}
+    .item_header>.item_info>.img_box>img{
+            display: inline-block;
+            padding-right: 5px;
+            cursor: pointer;
+            }
+    .item_header>.item_info>.img_box>img:last-child{padding-right: 0;}
+    .item_header>.item_info>h3{
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 32px;
+            margin-bottom: 5px;}
+    .item_header>.item_info>.eng_tit{
+            margin-bottom: 24px;}
+    .item_header>.item_info>p{
+            font-size:13px ;}
+
+
+.item_table{
+            margin-bottom: 36px;}
+.item_table>h4{
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            }
+      table{
+            border-collapse: collapse;} /* 보터칼립스 중요중요 안하면 띄어져보임  */
+    
+table,td,th{
+            box-sizing: border-box;
+            border: 1px solid #aaa;
+            font-size: 12px;}
+      td,th{
+            width: 1.428571428571429%;
+            padding: 8px 0;
+            text-align: center;
+            color: #333;}
+table>tr{border-top: 2px solid black;}
+table,tr>th:first-child{border-left: none;}
+table,th:nth-child(7),td:last-of-type{border-right: none;}
+table,tr:first-child>th{border-top-color: black;}
+table,tr:last-child>th,tr:last-child>td{border-bottom-color: black;}
+
+    
+          
+    .item_list{
+            overflow: hidden;
+            height: 130px;
+            margin-bottom: 30px;
+            transition: 0.3s;}
+    
+    /* .item_list{height: 330px;} */
+.item_list li{
+            float: left;
+            width: 14.28571428571429%;}
+.item_list li img{
+            width: 100%;
+            transition: 0.3s;
+        }
+.item_list li:hover img{transform: scale(1.2);}
+.item_list p{
+            text-align: center;}
+ 
+
+.item_more{
+        margin-bottom: 30px;
+        }
+.item_more img{cursor: pointer;}
+.item_more .img_box img:last-child{display: none;}
